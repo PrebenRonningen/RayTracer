@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{ddb17eba-e15e-4597-8bf6-064b16b159d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers\Singleton">
+      <UniqueIdentifier>{2e432daa-ee8f-4984-8ae7-928c7e5aace5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph">
+      <UniqueIdentifier>{a317bc85-3234-42c0-bc09-676a09b6e388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene">
+      <UniqueIdentifier>{2501ffab-f3f3-4a71-a151-0aa8bc32d688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene">
+      <UniqueIdentifier>{1ae65277-4fac-4eb4-ae8b-22593ff9985c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects">
+      <UniqueIdentifier>{ac5dc371-43a2-4184-ba0a-0260d06a9d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes">
+      <UniqueIdentifier>{fa78db37-e625-48b4-a6a8-ec9e673f5135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Plane">
+      <UniqueIdentifier>{2e697032-c1fd-4d14-a3d2-004e9ab62bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Sphere">
+      <UniqueIdentifier>{4db1b095-7812-4edf-a78e-f258a07034e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Camera">
+      <UniqueIdentifier>{92ef3c19-cdd5-4330-8cde-77b26aec3c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Camera\Camera">
+      <UniqueIdentifier>{cda3db3d-feb0-4c17-8be2-dcd49bb4d990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Lights">
+      <UniqueIdentifier>{0f85f5f7-310e-4f7a-8a4c-c512a987f2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Lights\PointLight">
+      <UniqueIdentifier>{4a8c86e9-5d1d-4b18-873e-9aaa85fe9baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Lights\DirectionalLight">
+      <UniqueIdentifier>{d68bef65-af2b-460f-968d-510df9737b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MaterialManager">
+      <UniqueIdentifier>{f6a0dced-d301-404c-aac6-6b4f14d1be73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects\Mesh">
+      <UniqueIdentifier>{9d3e961f-b2da-40bb-a89f-326b943fb19f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\SceneGraph\RenderScene\Scene\Objects\Mesh\Triangle">
+      <UniqueIdentifier>{8b936a71-5b80-400d-8dc8-0b2a1680f8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MaterialManager\Materials">
+      <UniqueIdentifier>{e97250c1-8a20-4606-9da2-04231c998833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MaterialManager\Materials\Lambert">
+      <UniqueIdentifier>{1e8dc23a-c873-4ccb-a007-61877f1fbf2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MaterialManager\Materials\LambertPhong">
+      <UniqueIdentifier>{03901a62-65f6-456b-8a01-f5895ddf5b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\MaterialManager\Materials\LambertCookTorrance">
+      <UniqueIdentifier>{268b7775-adb2-46d1-88c0-8c49d22cdb14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RayTracer.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EMatrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EPoint4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EVector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ERenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ERGBColor.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ETimer.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Renderer\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Helpers\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Camera\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderScene.h">
+      <Filter>Renderer\SceneGraph\RenderScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights\PointLight</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights\DirectionalLight</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Renderer\MaterialManager\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>Renderer\MaterialManager\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Renderer\MaterialManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_Lambert.h">
+      <Filter>Renderer\MaterialManager\Materials\Lambert</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_LambertPhong.h">
+      <Filter>Renderer\MaterialManager\Materials\LambertPhong</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_LambertCookTorrance.h">
+      <Filter>Renderer\MaterialManager\Materials\LambertCookTorrance</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Mesh\Triangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ERenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ETimer.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Renderer\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Camera\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights\PointLight</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights\DirectionalLight</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Shapes\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Renderer\MaterialManager\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Renderer\MaterialManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Material_Lambert.cpp">
+      <Filter>Renderer\MaterialManager\Materials\Lambert</Filter>
+    </ClCompile>
+    <ClCompile Include="Material_LambertPhong.cpp">
+      <Filter>Renderer\MaterialManager\Materials\LambertPhong</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF.cpp">
+      <Filter>Renderer\MaterialManager\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Material_LambertCookTorrance.cpp">
+      <Filter>Renderer\MaterialManager\Materials\LambertCookTorrance</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Renderer\SceneGraph\RenderScene\Scene\Objects\Mesh\Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
