@@ -21,11 +21,18 @@ In this scene from left to right there are
 	Top 3 are rendered with metallic cook-torrance materials: Rough Silver, Mat Gold & Shiny Zinc (roughness 1, 0.6, 0.1)
 	bottom 3 rendered with dilectric cook-torrance materials: Rough-Green, Mat-Blue, Shiny-Red
 - 4 Lights
- 3 Pointlights & 1 Directional light
-![Raytracer_scene_Stanford_Bunny](https://raw.githubusercontent.com/PrebenRonningen/RayTracer/main/Photos/Bunny.bmp)
+	3 Pointlights
+	1 Directional light
+- 5 Planes
+	All with a blue dilectric cook-torrance materials (roughness 0.4)
+
+![Raytracer_scene_Stanford_Bunny](https://raw.githubusercontent.com/PrebenRonningen/RayTracer/main/Photos/SpheresAndTriangles.bmp)
 
 In this scene 
 - 1 Stanford Bunny with a White Lambert material
 - 3 Point Lights
 - 1 Directional Light
+- 5 Planes
+	All with a blue dilectric cook-torrance materials (roughness 0.4)
+
 ![Raytracer_scene_Stanford_Bunny](https://raw.githubusercontent.com/PrebenRonningen/RayTracer/main/Photos/Bunny.bmp)
